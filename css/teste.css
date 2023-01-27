@@ -167,35 +167,9 @@ img {
     border-radius: 5px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    color:rgb(66, 62, 62);
-    padding: 7%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.footer_headline {
-    color:rgb(0, 0, 0);
-    padding-bottom: 7px;
-}
-
-.footer_infos {
-    padding: 1px;
-    color: dimgray;
-}
-
-.footer_atendimento {
+#linha_footer {
+    margin-top: 3%;
+    margin-bottom: -5%;
     padding: 4px;
-    color: dimgray;
-}
-
-.footer_endereco {
-    margin-top: -5px;
-    margin-bottom: 8px;
-    color: dimgray;
-}
-
-.footer_rua_entrada {
-    color: dimgray;
+    background-color:black;
 }
