@@ -7,7 +7,7 @@
 }
 /* DISPLAY GRID */
 header {
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.916);
     grid-area: header;
 }
 
