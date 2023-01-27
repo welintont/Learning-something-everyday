@@ -170,28 +170,32 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
-    color: blue;
+    color:rgb(66, 62, 62);
     padding: 7%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer_headline {
-    color:rgb(35, 30, 30);
+    color:rgb(0, 0, 0);
     padding-bottom: 7px;
-    font-size:smaller;
-    font-weight: 520;
-
 }
 
 .footer_infos {
     padding: 1px;
+    color: dimgray;
 }
 
 .footer_atendimento {
     padding: 4px;
+    color: dimgray;
 }
 
 .footer_endereco {
     margin-top: -5px;
     margin-bottom: 8px;
+    color: dimgray;
+}
+
+.footer_rua_entrada {
+    color: dimgray;
 }
