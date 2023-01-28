@@ -191,7 +191,50 @@ li {
 
 .footer_infos {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color:black;
     padding-bottom: 8%;
 }
 
+.footer_informacoes_loja {
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:rgb(45, 41, 41);
+    text-decoration: none;
+}
+
+.footer_institucional {
+    margin-top: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:rgb(45, 41, 41);
+    text-decoration: none;
+}
+
+.footer_atendimento {
+    margin-bottom: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:rgb(45, 41, 41);
+    text-decoration: none;
+}
+
+.footer_endereco {
+    margin-top: -1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:rgb(45, 41, 41);
+    text-decoration: none;
+}
+
+.footer_endereco_header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding-bottom: 6%;
+}
+
+#footer_small {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(45, 41, 41);
+}
