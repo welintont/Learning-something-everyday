@@ -240,7 +240,7 @@ li {
 }
 
 .footer_texto {
-    color: rgb(9, 6, 6);
+    color:rgb(51, 49, 49);
     display: flex;
     margin-left: 8%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -254,7 +254,7 @@ li {
 }
 
 #logo {
-    margin-top: 65%;
+    margin-top: 45%;
     width: 50px;
     height: 50px;
 }
@@ -263,5 +263,72 @@ li {
     margin-left: 8%;
     margin-right: 8%;
     background-color:dimgrey
+}
+
+.display_certificados {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.display_redes_sociais {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.logo_facebook {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6%;
 
 }
+
+.logo_instagram {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.logo_youtube {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 8%;
+}
+
+.logo_seguranca {
+    width: 200px;
+    height: 100px;
+}
+
+.logo_formas_de_pagamento {
+    width: 300px;
+    height: 50px;
+}
+
+#margin_certificados {
+    margin-bottom: 7%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(51, 49, 49);
+    font-size: small;
+}
+
+#margin_formas_de_pagamento {
+    margin-bottom: 4%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(51, 49, 49);
+    font-size: small;
+}
+
+#fonte_siga_nossas_redes {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(51, 49, 49);
+    font-size: small;
+}
+
+
+
+
+
+
