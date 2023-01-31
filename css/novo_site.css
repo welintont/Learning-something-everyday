@@ -12,12 +12,12 @@ header {
 
 main {
     grid-area: main;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 aside {
     grid-area: aside;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 
@@ -206,7 +206,7 @@ li {
 }
 
 .footer_atendimento {
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     color:rgb(45, 41, 41);
@@ -230,6 +230,7 @@ li {
 #footer_small {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(45, 41, 41);
+    padding-top: 4%;
 }
 
 .footer_texto {
@@ -246,7 +247,7 @@ li {
 }
 
 #logo {
-    margin-top: 23%;
+    margin-top :17%;
     margin-left: 5px;
     width: 100px;
     height: 50px;
@@ -255,6 +256,7 @@ li {
 .linha_footer_fina {
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 2%;
     background-color:dimgrey;
 }
 
@@ -262,6 +264,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin-top: 3%;
 }
 
 .display_redes_sociais {
@@ -317,6 +320,7 @@ li {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(51, 49, 49);
     font-size: small;
+
 }
 
 #direitos_reservados {
@@ -324,6 +328,7 @@ li {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(51, 49, 49);
     font-size: small;
+    margin-top: 2%;
 }
 
 
