@@ -390,3 +390,11 @@ a {
 .navbar_margin {
     margin-top: 0.3%;
 }
+
+ aside a:hover {
+    font-size: 14px;
+}
+.preco_novo:hover {
+    background-color: rgb(243, 77, 77);
+    color: aliceblue;
+}
