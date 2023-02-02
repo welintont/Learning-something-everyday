@@ -398,3 +398,7 @@ a {
     background-color: rgb(243, 77, 77);
     color: aliceblue;
 }
+
+.imagens {
+    filter:drop-shadow(5px 6px 6px  rgba(109, 103, 103, 0.422))
+}
