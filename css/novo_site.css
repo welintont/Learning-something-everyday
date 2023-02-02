@@ -108,6 +108,7 @@ img {
     border-radius: 5px;
 }
 
+
 .qualidade_garantida {
     display: flex;
     justify-content:space-around;
@@ -392,13 +393,18 @@ a {
 }
 
  aside a:hover {
-    font-size: 14px;
+    text-decoration: underline;
+    
 }
 .preco_novo:hover {
-    background-color: rgb(243, 77, 77);
+    background-color: rgba(243, 77, 77, 0.849);
     color: aliceblue;
 }
 
 .imagens__drop-shadow {
     filter:drop-shadow(4px 6px 5px rgba(82, 77, 77, 0.592))
+}
+
+.navbar_margin:hover {
+    text-decoration: underline;
 }
