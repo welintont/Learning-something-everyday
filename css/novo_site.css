@@ -399,6 +399,6 @@ a {
     color: aliceblue;
 }
 
-.imagens {
-    filter:drop-shadow(5px 6px 6px  rgba(109, 103, 103, 0.422))
+.imagens__drop-shadow {
+    filter:drop-shadow(4px 6px 5px rgba(82, 77, 77, 0.592))
 }
