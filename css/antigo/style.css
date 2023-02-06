@@ -1,0 +1,278 @@
+/* RESET PADRÃO */
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* RESET PADRÃO */
+
+/* Colocando fontes externas*/
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Light.otf");
+    font-weight: light;
+}
+
+body {
+    font-family: "Source Sans Pro";
+}
+/* Colocando fontes externas*/
+
+/* HEADER */
+.cabecalho {
+    background: #fff;
+    padding: 15px;
+}
+
+.logo {
+    background-image: url("../img/logos/logo-nova-loja.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 179px;
+    height: 47px;
+    text-indent: -9999px;
+    text-align: center;
+}
+/* HEADER */
+
+/* HEADER - MENU PRINCIPAL*/
+
+.menu-principal__btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-color: #fbf8f8;
+    background-image: url("../imagens-udemy/menuprincipal-btn-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.menu-principal__btn--fechar {
+    background-position: -48px 7px;
+}
+
+.menu-principal__lista {
+    padding: 0;
+}
+
+.menu-principal__lista li {
+    list-style: none;
+}
+
+.menu-principal__item {
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-princilpal__item--atual {
+    color: #f44242
+}
+/* HEADER - MENU PRINCIPAL*/
+
+
+/* MAIN */
+    .secao__produtos {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .main__produtos {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 18px;
+    }
+
+    .main__item {
+        text-decoration: none;
+        color:rgb(35, 35, 33);
+    }
+
+    .main__img {
+        filter: drop-shadow(5px 5px 3px rgb(133, 131, 131));
+        width: 100px;
+        margin-bottom: 5px;
+    }
+
+    .main__paragrafo {
+        margin: 2px 0;
+       padding: 0 15px;
+    }
+
+    .main--preco-novo {
+        font-size: 18px;
+        color:rgb(72, 67, 67);
+        font-weight:bold;
+        margin-bottom: 10px;
+    }
+
+    .main--preco-antigo {
+        text-decoration: line-through;
+    }
+
+    .main--preco-novo:hover {
+        background-color: rgb(233, 81, 81);
+        color: #fff;
+    }
+
+    .m-header__cabecalho {
+        background-color: black;
+        padding: 30px 0;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        background-image: url("../img/cabecalho/cabecalho-preto.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        color: #fff;
+    }
+
+    .m-header__titulo {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .m-header__titulo::after {
+        content: '';
+        display: block;
+        background-color: #fff;
+        width: 50px;
+        height: 3px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+/* MAIN */
+
+
+/* FOOTER PRIMEIRA LINHA*/
+
+.f-primeira-linha {
+    border-top: 5px solid;
+}
+
+.f-logo__redes-sociais {
+    max-width: 50px;
+    padding: 0 5px;
+}
+
+
+.f-primeira-linha__titulo {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:600;
+    padding: 0 15px 0 15px;
+}
+
+.f-primeira-linha__lista {
+    padding: 0 15px 15px 15px;
+    margin-top: -5px;
+}
+
+.f-primeira-linha__lista li {
+    list-style:none ;
+    margin-bottom: 5px;
+}
+
+.f-primeira-linha__item {
+    text-decoration: none;
+}
+
+ul li {
+    color:rgb(35, 35, 33);
+}
+
+ul li a {
+    color:rgb(35, 35, 33);
+}
+
+.f-primeira-linha__paragrafo {
+    color:rgb(35, 35, 33);
+}
+
+.f-primeira-linha__paragrafo-menor {
+    font-size: 13px;
+}
+
+/* FOOTER PRIMEIRA LINHA*/
+
+
+/* FOOTER SEGUNDA LINHA*/
+    .f-segunda-linha {
+        padding: 15px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.395);
+    }
+
+    .f-segunda-linha__logo {
+        margin-top: 16px;
+        background-image: url("../img/logos/logo-nova-loja.png");
+        background-repeat: no-repeat;
+        display: block;
+        text-indent: -9999px;
+        width: 179px;
+        height: 47px;
+    }
+
+
+    .f-segunda-linha__paragrafo {
+        color:rgb(35, 35, 33);
+    }
+
+/* FOOTER SEGUNDA LINHA*/
+
+/* FOOTER TERCEIRA LINHA*/
+    .f-terceira-linha {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-top: 15px;
+        color:rgb(35, 35, 33);
+        padding: 15px;
+        
+    }
+
+    .f-terceira-linha__pagamentos-img {
+        width: 250px;
+        height: auto;
+    }
+/* FOOTER TERCEIRA LINHA*/
+
+/* FOOTER QUARTA LINHA*/
+    .f-quarta-linha {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 100;
+        background-image: url("../img/cabecalho/cabecalho-preto.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        padding: 8px 15px;
+        margin-top: 40px;
+    }
+/* FOOTER QUARTA LINHA*/
+
