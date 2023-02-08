@@ -1,5 +1,6 @@
 //Abstracts
 @import 'abstracts/_cores';
+@import 'abstracts/_breakpoints';
 
 //Base
 @import 'base/_normalize';
@@ -11,6 +12,7 @@
 @import 'layout/_cabecalho';
 @import 'layout/_footer';
 @import 'layout/_main';
+@import 'layout/_container';
 
 
 //Componentes

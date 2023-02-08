@@ -9,16 +9,18 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html"><h1 class="logo">Nova loja logo</h1></a>
-        <nav class="menu-principal">
-            <button class="menu-principal__btn">Abrir/fechar menu</button>
-            <ul class="menu-principal__lista"> 
-                <li><a class="menu-principal__item menu-princilpal__item--atual" href="">Home</a></li>
-                <li><a class="menu-principal__item" href="#">Sobre nós</a></li>
-                <li><a class="menu-principal__item" href="#">Contato</a></li>
-                <li><a class="menu-principal__item" href="#redes-sociais">Social Media</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="index.html"><h1 class="logo">Nova loja logo</h1></a>
+            <nav class="menu-principal">
+                <button class="menu-principal__btn">Abrir/fechar menu</button>
+                <ul class="menu-principal__lista"> 
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="">Home</a></li>
+                    <li><a class="menu-principal__item" href="#">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="#">Contato</a></li>
+                    <li><a class="menu-principal__item" href="#redes-sociais">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <header class="m-header__cabecalho">
@@ -156,7 +158,7 @@
        </section>
     </main>
     <footer class="footer">
-        <div class="f-primeira-linha">
+        <div class="container f-primeira-linha">
             <div class="f-primeira-linha__coluna">
                 <h2 class="f-primeira-linha__titulo">Institucional</h2>
                 <ul class="f-primeira-linha__lista">
@@ -193,27 +195,27 @@
             </div>
         </div>
                                     <!--Segunda Linha-->
-        <div class="f-segunda-linha">
-            <div><a href="index.html"><img src="./img/logos/logo-nova-loja.png" alt="logo nova loja"></a></div>
-            <div>
-                <p class="f-segunda-linha__paragrafo">A Trend Co é uma Importadora e Distribuidora no Brasil das empresas Otto Cap, Flexfit, Independent <br>
-                    Trading Co, Pacific Sport e também de produtos da indústria nacional.
-                </p>
-            </div>
-        </div>
+                <div class="container f-segunda-linha">
+                    <div><img class="f-segunda-linha__logo" src="./img/logos/logo-nova-loja.png" alt="logo nova loja"></div>
+                    <div>
+                        <p class="f-segunda-linha__paragrafo">A Trend Co é uma Importadora e Distribuidora no Brasil das empresas Otto Cap, Flexfit, Independent <br>
+                            Trading Co, Pacific Sport e também de produtos da indústria nacional.
+                        </p>    
+                    </div>
+                </div>
                                     <!--Terceira Linha-->
-        <div class="f-terceira-linha">
+        <div class="container f-terceira-linha">
            <div>
                 <p>Segurança e certificados</p>
-                <img src="./img/logos/logo-seguranca.png" alt="">
+                <img src="./img/logos/logo-seguranca.png" alt="Logo segurança e certificados">
            </div>
            <div>
-                <p>Formas de pagamento</p>
+                <p class="f-terceira-linha__texto">Formas de pagamento</p>
                 <img class="f-terceira-linha__pagamentos-img" src="./img/logos/logo-formas-de-pagamento.png" alt="Logo formas de pagamento">
            </div>
            <div>
                 <p class="f-terceira-linha__titulo" id="redes-sociais">Siga nossas redes sociais</p>
-                <div>
+                <div class="f-terceira-linha__img">
                     <a class="f-terceira-linha__links" href="https://www.facebook.com/" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/logo-facebook.png" alt="Logo facebook"></a>
                     <a class="f-terceira-linha__links" href="https://www.instagram.com/?hl=pt-br" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/instagram_logo.png" alt="Logo instagram"></a>
                     <a class="f-terceira-linha__links" href="https://www.youtube.com/?hl=pt&gl=BR" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/logo-youtube.png" alt="Logo youtube"></a>

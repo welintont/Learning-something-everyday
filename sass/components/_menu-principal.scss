@@ -3,11 +3,11 @@
     width: 50px;
     height: 50px;
     text-indent: -9999px;
-    background-color: #fbf8f8;
+    background-color: $cor-background-botao-menu-principal;
     background-image: url("../imagens-udemy/menuprincipal-btn-bg.png");
     background-repeat: no-repeat;
     background-position: 5px 6px;
-    border-color: #c4c4c4;
+    border-color: $cor-borda-botao-menu-principal;
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
@@ -32,12 +32,12 @@
 .menu-principal__item {
     text-decoration: none;
     font-weight: bold;
-    color: #343434;
+    color: $cor-principal;
     margin-bottom: 8px;
     display: block;
     font-size: 18px;
 }
 
-.menu-princilpal__item--atual {
-    color: #f44242
+.menu-principal__item--atual {
+    color: $menu-principal-item-atual-color;
 }

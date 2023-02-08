@@ -330,45 +330,53 @@ body {
   font-weight: light; }
 
 .cabecalho {
-  background: #fff;
-  padding: 15px; }
+  background: white;
+  margin: 0;
+  padding: 0 25px; }
 
 /* FOOTER PRIMEIRA LINHA*/
 .f-primeira-linha {
   border-top: 5px solid; }
-
-.f-logo__redes-sociais {
-  max-width: 50px;
-  padding: 0 5px; }
-
-.f-primeira-linha__titulo {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 0 15px 0 15px; }
-
-.f-primeira-linha__lista {
-  padding: 0 15px 15px 15px;
-  margin-top: -5px; }
-
-.f-primeira-linha__lista li {
-  list-style: none;
-  margin-bottom: 5px; }
-
-.f-primeira-linha__item {
-  text-decoration: none; }
-
-ul li {
-  color: #232321; }
-
-ul li a {
-  color: #232321; }
-
-.f-primeira-linha__paragrafo {
-  color: #232321; }
-
-.f-primeira-linha__paragrafo-menor {
-  font-size: 13px; }
+  .f-primeira-linha__titulo {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 15px 0 15px; }
+  .f-primeira-linha__lista {
+    padding: 0 15px 15px 15px;
+    margin-top: -5px; }
+  .f-primeira-linha__lista li {
+    list-style: none;
+    margin-bottom: 5px; }
+  .f-primeira-linha__item {
+    text-decoration: none; }
+  .f-primeira-linha__paragrafo {
+    color: #1e1c1c; }
+  .f-primeira-linha__paragrafo-menor {
+    font-size: 13px; }
+  .f-primeira-linha__redes-sociais {
+    max-width: 50px;
+    padding: 0 5px; }
+  .f-primeira-linha ul li {
+    color: #1e1c1c; }
+  .f-primeira-linha ul li a {
+    color: #1e1c1c; }
+  @media (max-width: 576px) {
+    .f-primeira-linha {
+      text-align: center;
+      font-size: 14px; } }
+  @media (min-width: 768px) {
+    .f-primeira-linha {
+      display: flex;
+      justify-content: space-evenly; } }
+  @media (min-width: 992px) {
+    .f-primeira-linha {
+      display: flex;
+      justify-content: space-evenly; } }
+  @media (min-width: 1200px) {
+    .f-primeira-linha {
+      display: flex;
+      justify-content: space-evenly; } }
 
 /* FOOTER PRIMEIRA LINHA*/
 /* FOOTER SEGUNDA LINHA*/
@@ -376,18 +384,28 @@ ul li a {
   padding: 15px;
   padding-bottom: 25px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.395); }
-
-.f-segunda-linha__logo {
-  margin-top: 16px;
-  background-image: url("../img/logos/logo-nova-loja.png");
-  background-repeat: no-repeat;
-  display: block;
-  text-indent: -9999px;
-  width: 179px;
-  height: 47px; }
-
-.f-segunda-linha__paragrafo {
-  color: #232321; }
+  .f-segunda-linha__logo {
+    margin-top: 16px;
+    width: 179px;
+    height: 49px;
+    margin-right: 10px; }
+  .f-segunda-linha__paragrafo {
+    color: #1e1c1c; }
+  @media (max-width: 576px) {
+    .f-segunda-linha {
+      text-align: center;
+      font-size: 15px; } }
+  @media (min-width: 576px) {
+    .f-segunda-linha {
+      text-align: center; } }
+  @media (min-width: 992px) {
+    .f-segunda-linha {
+      display: flex;
+      text-align: justify; } }
+  @media (min-width: 1200px) {
+    .f-segunda-linha {
+      display: flex;
+      text-align: justify; } }
 
 /* FOOTER SEGUNDA LINHA*/
 /* FOOTER TERCEIRA LINHA*/
@@ -395,12 +413,21 @@ ul li a {
   text-transform: uppercase;
   font-size: 16px;
   margin-top: 15px;
-  color: #232321;
+  color: #1e1c1c;
   padding: 15px; }
-
-.f-terceira-linha__pagamentos-img {
-  width: 250px;
-  height: auto; }
+  .f-terceira-linha__pagamentos-img {
+    width: 250px;
+    height: auto; }
+  @media (max-width: 576px) {
+    .f-terceira-linha {
+      text-align: center; } }
+  @media (min-width: 576px) {
+    .f-terceira-linha {
+      text-align: center; } }
+  @media (min-width: 768px) {
+    .f-terceira-linha {
+      display: flex;
+      justify-content: space-evenly; } }
 
 /* FOOTER TERCEIRA LINHA*/
 /* FOOTER QUARTA LINHA*/
@@ -462,6 +489,9 @@ ul li a {
   background-repeat: repeat;
   background-attachment: fixed;
   color: #fff; }
+  @media (min-width: 992px) {
+    .m-header__cabecalho {
+      height: 50vh; } }
 
 .m-header__titulo {
   text-align: center;
@@ -477,6 +507,23 @@ ul li a {
   margin-top: 20px; }
 
 /* MAIN */
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px; } }
+
 .logo {
   background-image: url("../img/logos/logo-nova-loja.png");
   background-repeat: no-repeat;
@@ -485,6 +532,10 @@ ul li a {
   height: 47px;
   text-indent: -9999px;
   text-align: center; }
+
+.f-logo__redes-sociais {
+  width: 40px;
+  padding: 0 2px; }
 
 .menu-principal__btn {
   display: block;
@@ -515,10 +566,10 @@ ul li a {
 .menu-principal__item {
   text-decoration: none;
   font-weight: bold;
-  color: #343434;
+  color: #121212;
   margin-bottom: 8px;
   display: block;
   font-size: 18px; }
 
-.menu-princilpal__item--atual {
-  color: #f44242; }
+.menu-principal__item--atual {
+  color: #e23636; }

@@ -51,6 +51,9 @@
     background-repeat: repeat;
     background-attachment: fixed;
     color: #fff;
+    @media(min-width: $breakpoint-lg) {
+            height: 50vh;
+    }
 }
 
 .m-header__titulo {

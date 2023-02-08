@@ -2,51 +2,65 @@
 
 .f-primeira-linha {
     border-top: 5px solid;
+    &__titulo {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight:600;
+        padding: 0 15px 0 15px;
+    }
+    
+    &__lista {
+        padding: 0 15px 15px 15px;
+        margin-top: -5px;
+    }
+    
+    &__lista li {
+        list-style:none ;
+        margin-bottom: 5px;
+    }
+    
+    &__item {
+        text-decoration: none;
+    }
+    
+    
+    &__paragrafo {
+        color:$cor-paragrafos-listas-footer;
+    }
+    
+    &__paragrafo-menor {
+        font-size: 13px;
+    }
+    &__redes-sociais {
+        max-width: 50px;
+        padding: 0 5px;
+    }
+    ul li {
+        color:$cor-paragrafos-listas-footer;
+    }
+    
+    ul li a {
+        color:$cor-paragrafos-listas-footer;
+    }
+    @media(max-width: $breakpoint-sm) {
+        text-align: center;
+        font-size: 14px;
+    }
+    @media(min-width: $breakpoint-sm) {
+    }
+    @media(min-width: $breakpoint-md) {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    @media(min-width: $breakpoint-lg) {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    @media(min-width: $breakpoint-xl) {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
-
-.f-logo__redes-sociais {
-    max-width: 50px;
-    padding: 0 5px;
-}
-
-
-.f-primeira-linha__titulo {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight:600;
-    padding: 0 15px 0 15px;
-}
-
-.f-primeira-linha__lista {
-    padding: 0 15px 15px 15px;
-    margin-top: -5px;
-}
-
-.f-primeira-linha__lista li {
-    list-style:none ;
-    margin-bottom: 5px;
-}
-
-.f-primeira-linha__item {
-    text-decoration: none;
-}
-
-ul li {
-    color:rgb(35, 35, 33);
-}
-
-ul li a {
-    color:rgb(35, 35, 33);
-}
-
-.f-primeira-linha__paragrafo {
-    color:rgb(35, 35, 33);
-}
-
-.f-primeira-linha__paragrafo-menor {
-    font-size: 13px;
-}
-
 /* FOOTER PRIMEIRA LINHA*/
 
 
@@ -55,23 +69,32 @@ ul li a {
         padding: 15px;
         padding-bottom: 25px;
         border-bottom: 1px solid rgba(128, 128, 128, 0.395);
+        &__logo {
+            margin-top: 16px;
+            width: 179px;
+            height: 49px;
+            margin-right: 10px;
+        }
+        &__paragrafo {
+            color:$cor-paragrafos-listas-footer;
+        }
+        @media(max-width: $breakpoint-sm) {
+            text-align: center;
+            font-size: 15px;
+        }
+        @media(min-width: $breakpoint-sm) {
+            text-align: center;
+
+        }
+        @media(min-width: $breakpoint-lg) {
+            display:flex;
+            text-align:justify;
+        }
+        @media(min-width: $breakpoint-xl) {
+            display:flex;
+            text-align:justify;
+        }
     }
-
-    .f-segunda-linha__logo {
-        margin-top: 16px;
-        background-image: url("../img/logos/logo-nova-loja.png");
-        background-repeat: no-repeat;
-        display: block;
-        text-indent: -9999px;
-        width: 179px;
-        height: 47px;
-    }
-
-
-    .f-segunda-linha__paragrafo {
-        color:rgb(35, 35, 33);
-    }
-
 /* FOOTER SEGUNDA LINHA*/
 
 /* FOOTER TERCEIRA LINHA*/
@@ -79,14 +102,22 @@ ul li a {
         text-transform: uppercase;
         font-size: 16px;
         margin-top: 15px;
-        color:rgb(35, 35, 33);
+        color:$cor-paragrafos-listas-footer;
         padding: 15px;
-        
-    }
-
-    .f-terceira-linha__pagamentos-img {
-        width: 250px;
-        height: auto;
+        &__pagamentos-img {
+            width: 250px;
+            height: auto;
+        }
+        @media(max-width: $breakpoint-sm) {
+            text-align: center;
+        }
+        @media(min-width: $breakpoint-sm) {
+            text-align: center;
+        }
+        @media(min-width: $breakpoint-md) {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
 /* FOOTER TERCEIRA LINHA*/
 
