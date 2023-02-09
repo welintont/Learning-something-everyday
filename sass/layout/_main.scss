@@ -1,24 +1,68 @@
 /* MAIN */
 .secao__produtos {
     padding: 15px;
-    text-align: center;
+    margin-left: 250px;
+   
 }
 
 .main__produtos {
     margin: 0;
     padding: 0;
     margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    @media(max-width: $breakpoint-sm) {
+        display: block;
+    }
+    @media(min-width: $breakpoint-sm) {
+        display: block;
+    }
+    @media(min-width: $breakpoint-md) {
+        display: flex;
+    }
+    @media(min-width: $breakpoint-lg) {
+        display: flex;
+    }
+    @media(min-width: $breakpoint-xl) {
+        display: flex;
+    }
+    @media(min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+        margin-left: 300px;
+    }
+    
+}
+
+.main__coluna {
+    text-align: center;
+    
 }
 
 .main__item {
     text-decoration: none;
     color:rgb(35, 35, 33);
+    
 }
 
 .main__img {
     filter: drop-shadow(5px 5px 3px rgb(133, 131, 131));
     width: 100px;
     margin-bottom: 5px;
+    margin-right: 20px;
+    @media(max-width: $breakpoint-sm) {
+        width: 120px;
+    }
+    @media(max-width: $breakpoint-md) {
+        width: 150px;
+    }
+    @media(min-width: $breakpoint-md) {
+        width: 100px;
+    }
+    @media(min-width: $breakpoint-xl) {
+        width: 120px;
+    }
+    @media(min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+        width: 150px;
+    }
 }
 
 .main__paragrafo {
@@ -40,6 +84,7 @@
 .main--preco-novo:hover {
     background-color: rgb(233, 81, 81);
     color: #fff;
+    margin: 0 -15px;
 }
 
 .m-header__cabecalho {
@@ -51,14 +96,39 @@
     background-repeat: repeat;
     background-attachment: fixed;
     color: #fff;
+    @media(max-width: $breakpoint-sm) {
+        height: 20vh;
+}
     @media(min-width: $breakpoint-lg) {
-            height: 50vh;
+            height: 30vh;
     }
+    @media(min-width: $breakpoint-xl) {
+        height: 30vh;
+}
 }
 
 .m-header__titulo {
     text-align: center;
     text-transform: uppercase;
+    margin-top: 100px;
+    @media(max-width: $breakpoint-sm) {
+        margin-top: 20px;
+        font-size:22px;
+    }
+    @media(min-width: $breakpoint-sm) {
+        margin-top: 25px;
+        font-size:25px;
+    }
+    @media(min-width:$breakpoint-lg) {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    @media(min-width:$breakpoint-xl) {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+
 }
 
 .m-header__titulo::after {
