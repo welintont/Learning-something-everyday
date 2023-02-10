@@ -2,7 +2,6 @@
 .secao__produtos {
     padding: 15px;
     margin-left: 250px;
-   
 }
 
 .main__produtos {
@@ -40,7 +39,7 @@
 .main__item {
     text-decoration: none;
     color:rgb(35, 35, 33);
-    
+
 }
 
 .main__img {
@@ -49,7 +48,7 @@
     margin-bottom: 5px;
     margin-right: 20px;
     @media(max-width: $breakpoint-sm) {
-        width: 120px;
+        width: 100px;
     }
     @media(max-width: $breakpoint-md) {
         width: 150px;
@@ -63,6 +62,9 @@
     @media(min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
         width: 150px;
     }
+    @media(min-width: $breakpoint-md) and  (max-width: $breakpoint-lg) {
+        width: 80px;
+    }
 }
 
 .main__paragrafo {
@@ -75,6 +77,9 @@
     color:rgb(72, 67, 67);
     font-weight:bold;
     margin-bottom: 10px;
+    @media(min-width: $breakpoint-md) and  (max-width: $breakpoint-lg) {
+        font-size: 15px;
+    }
 }
 
 .main--preco-antigo {
@@ -87,58 +92,29 @@
     margin: 0 -15px;
 }
 
-.m-header__cabecalho {
-    background-color: black;
-    padding: 30px 0;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.pagina-cabecalho {
+    background-color: $cor-principal;
     background-image: url("../img/cabecalho/cabecalho-preto.png");
-    background-repeat: repeat;
     background-attachment: fixed;
     color: #fff;
-    @media(max-width: $breakpoint-sm) {
-        height: 20vh;
-}
-    @media(min-width: $breakpoint-lg) {
-            height: 30vh;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    &__titulo {
+        text-align: center;
+        text-transform: uppercase;
     }
-    @media(min-width: $breakpoint-xl) {
-        height: 30vh;
-}
-}
-
-.m-header__titulo {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 100px;
-    @media(max-width: $breakpoint-sm) {
+    &__titulo::after {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #fff;
+        margin: 0 auto;
         margin-top: 20px;
-        font-size:22px;
     }
-    @media(min-width: $breakpoint-sm) {
-        margin-top: 25px;
-        font-size:25px;
-    }
-    @media(min-width:$breakpoint-lg) {
-        margin-top: 50px;
-        font-size: 35px;
-    }
-    @media(min-width:$breakpoint-xl) {
-        margin-top: 50px;
-        font-size: 35px;
-    }
-
-
 }
 
-.m-header__titulo::after {
-    content: '';
-    display: block;
-    background-color: #fff;
-    width: 50px;
-    height: 3px;
-    margin: 0 auto;
-    margin-top: 20px;
-}
+
 
 /* MAIN */
