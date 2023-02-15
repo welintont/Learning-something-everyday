@@ -1,5 +1,22 @@
 .cabecalho {
     background: $cor-cabecalho;
-    margin: 0;
-    padding: 0 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    @media(min-width: $breakpoint-md) {
+        min-height: 80px;
+        .logo {
+            float: left;
+            margin-top: 20px;   
+        }
+        .menu-principal {
+            float: right;
+            margin-top: 20px;
+            &__lista {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
 }

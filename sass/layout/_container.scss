@@ -1,13 +1,7 @@
 .container {
     margin: 0 auto;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 15px;
-    @media(min-width: $breakpoint-iphone-6-portrait) {
-        width: 240px;
-    }
-    @media(min-width: $breakpoint-iphone-6) {
-        width: 350px;
-    }
     @media(min-width: $breakpoint-sm) {
         width: 540px;
     }
