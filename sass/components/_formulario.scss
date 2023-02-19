@@ -1,0 +1,52 @@
+.formulario {
+    background-color: #efecec;
+    margin-left:  -15px;
+    margin-right: -15px;
+    padding: 40px 15px 40px 15px;
+    margin: 80px 0;
+    box-shadow: 0px 3px 5px #989898;
+    &__grupo {
+        margin-bottom: 5px;
+    }
+    &__input {
+        width: 100%;
+        border: 1px solid #c4c4c4;;
+        border-radius: 5px;
+        padding: 10px 5px;
+    }
+    &__label {
+        color: #353434;
+    }
+    &__botao {
+        border: 3px solid $cor-botao-submit;
+        background-color: #fff;
+        border-radius: 300px;
+        padding: 5px 25px;
+        color: $cor-botao-submit;
+        font-weight: bold;
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    label.error {
+        color: red;
+        padding-left: 5px;
+    }
+    @media(min-width: $breakpoint-md){
+        &__grupo {
+            float: left;
+            width: 100%;
+        }
+        &__grupo--coluna-left {
+            width: 50%;
+            padding-right: 15px;
+        }
+        &__grupo--coluna-right {
+            width: 50%;
+            padding-left: 15px;
+        }
+        &__botao {
+            font-size: 20px;
+        }
+    }
+}

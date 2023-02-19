@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html"><h1 class="logo">Nova loja logo</h1></a>
+            <nav class="menu-principal menu-principal--fechado">
+                <button class="menu-principal__btn">Abrir/fechar menu</button>
+                <ul class="menu-principal__lista"> 
+                    <li><a class="menu-principal__item" href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item" href="#">Algodão</a></li>
+                    <li><a class="menu-principal__item" href="#">Mercerizado</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+        </header>
+        <section class="container">
+            <form action="#" class="formulario">
+                <div class="formulario__grupo formulario__grupo--coluna-left">
+                    <label class="formulario__label" for="nome">Nome</label><br>
+                    <input class="formulario__input" type="text" name="nome" id="nome">
+                </div>
+                <div class="formulario__grupo formulario__grupo--coluna-right">
+                    <label class="formulario__label" for="email">E-mail</label><br>
+                    <input class="formulario__input" type="email" name="email" id="email">
+                </div>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                    <textarea class="formulario__input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <input  type="submit" class="formulario__botao" name="submit"  value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container f-primeira-linha">
+            <div class="f-primeira-linha__coluna">
+                <h2 class="f-primeira-linha__titulo">Institucional</h2>
+                <ul class="f-primeira-linha__lista">
+                    <li><a class="f-primeira-linha__item" href="#">Sobre nós</a></li>
+                    <li><a class="f-primeira-linha__item" href="#">Fale conosco</a></li>
+                    <li><a class="f-primeira-linha__item" href="#">Meus pedidos</a></li>
+                </ul>
+            </div>
+            <div class="f-primeira-linha__coluna">
+                <h2 class="f-primeira-linha__titulo">Informações da loja</h2>
+                <ul class="f-primeira-linha__lista">
+                    <li><a class="f-primeira-linha__item" href="#">Política de entrega</a></li>
+                    <li><a class="f-primeira-linha__item" href="#">Política de troca</a></li>
+                    <li><a class="f-primeira-linha__item" href="#">Política de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="f-primeira-linha__coluna">
+                <h2 class="f-primeira-linha__titulo">Atendimento</h2>
+                <ul class="f-primeira-linha__lista">
+                    <li>Email:<a class="f-primeira-linha__item" href="mailto:welintontslv@hotmail.com"> welintontslv@hotmail.com</a></li>
+                    <p class="f-primeira-linha__paragrafo">SAC: 11 4587-2658</p>
+                    <p class="f-primeira-linha__paragrafo">Whatsapp: 47 99157-4015 <br> horários de atendimento</p>
+                    <p class="f-primeira-linha__paragrafo">De 2ª a 6ª, das 10h às 18h</p>
+                </ul>
+            </div>
+            <div class="f-primeira-linha__coluna">
+                <h2 class="f-primeira-linha__titulo">Endereço:</h2>
+                <ul class="f-primeira-linha__lista">
+                    <li><a class="f-primeira-linha__item" href="https://www.google.com/maps/place/R.+Paulo+Zendron+-+Margem+Esquerda,+Gaspar+-+SC,+89116-569/@-26.9111434,-48.9494869,17z/data=!3m1!4b1!4m5!3m4!1s0x94df2490148600d9:0xd492e79403d6e72a!8m2!3d-26.9111434!4d-48.9494869" target="_blank">
+                        R: Paulo Zendron, n° 630 Margem Esqueda <br> CEP: 89116-569 - Gaspar
+                    </a></li>
+                    <p class="f-primeira-linha__paragrafo-menor">*Entrada / próxima a BR 470</p>
+                </ul>
+            </div>
+        </div>
+                                    <!--Segunda Linha-->
+                <div class="container f-segunda-linha">
+                    <div><a href=""><img class="f-segunda-linha__logo" src="./img/logos/logo-nova-loja.png" alt="logo nova loja"></a></div>
+                    <div>
+                        <p class="f-segunda-linha__paragrafo">A Trend Co é uma Importadora e Distribuidora no Brasil das empresas Otto Cap, Flexfit, Independent <br>
+                            Trading Co, Pacific Sport e também de produtos da indústria nacional.
+                        </p>    
+                    </div>
+                </div>
+                                    <!--Terceira Linha-->
+        <div class="container f-terceira-linha">
+           <div>
+                <p>Segurança e certificados</p>
+                <img src="./img/logos/logo-seguranca.png" alt="Logo segurança e certificados">
+           </div>
+           <div>
+                <p class="f-terceira-linha__texto">Formas de pagamento</p>
+                <img class="f-terceira-linha__pagamentos-img" src="./img/logos/logo-formas-de-pagamento.png" alt="Logo formas de pagamento">
+           </div>
+           <div>
+                <p class="f-terceira-linha__titulo" id="redes-sociais">Siga nossas redes sociais</p>
+                <div class="f-terceira-linha__img">
+                    <a class="f-terceira-linha__links" href="https://www.facebook.com/" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/logo-facebook.png" alt="Logo facebook"></a>
+                    <a class="f-terceira-linha__links" href="https://www.instagram.com/?hl=pt-br" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/instagram_logo.png" alt="Logo instagram"></a>
+                    <a class="f-terceira-linha__links" href="https://www.youtube.com/?hl=pt&gl=BR" target="_blank"><img class="f-logo__redes-sociais" src="./img/logos/logo-youtube.png" alt="Logo youtube"></a>
+                </div>
+           </div>
+        </div>
+                                    <!--Quarta Linha-->
+        <div class="f-quarta-linha">
+            &copy; 2023 - Todos os direitos reservados - @welintont
+        </div>
+    </footer>
+    
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
