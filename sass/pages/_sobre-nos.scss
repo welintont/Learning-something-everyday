@@ -1,0 +1,53 @@
+.sobre-nos {
+    &__texto {
+        margin-bottom: 35px;
+    }
+    &__fale-conosco {
+        border-radius: 10px;
+        box-shadow: 0px 1px 12px 7px #00000017;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    &__fale-conosco__paragrafo {
+        margin-top: -20px;
+    }
+    a {
+        text-decoration: none;
+    }
+    &__btn {
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        padding: 12px 0;
+        border-radius: 3px;
+        margin: 0 50px;
+    }
+    .sobre-nos__btn a {
+        color: rgb(253, 253, 252);
+        font-weight: bold;
+    }
+    p a {
+        color: $cor-nome-produtos;
+    }
+    .sprite-celular::before {
+        background-image: url("./img/icone/icone-celular.png");
+        
+    }
+    @media(min-width: $breakpoint-lg) {
+        &__grupo--direita {
+            float: right;
+            width: 30%;
+            padding: 25px 0;
+        }
+        &__grupo--esquerda {
+            float: left;
+            width: 60%;
+        }
+        &__btn {
+            
+        }
+    }
+
+}

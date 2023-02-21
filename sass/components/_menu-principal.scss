@@ -19,7 +19,6 @@
         @media(min-width: $breakpoint-md) { // Quando a largura mínima for 768px, não mostre o botão
             display: none;
         }
-        
     }
     &__lista {
         padding: 0;
@@ -29,6 +28,11 @@
             li {
             display: inline-block; // Quando a largura mínima for 768px, faça isso
             margin: 0 10px;
+            }
+        }
+        @media(min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+            .menu-principal__label {
+                width: 130px;
             }
         }
     }
@@ -45,6 +49,12 @@
     &__item--atual {
         color: $menu-principal-item-atual-color;
     }
+    &__label {
+        padding: 5px 10px;
+        width: 225px;
+        border-radius: 10px;
+        border-color: aliceblue;
+    }
     @media(max-width: $breakpoint-md - 1) {
         &--fechado {
             .menu-principal__btn {
@@ -57,6 +67,9 @@
                 margin: 0;
                 height: 0;
                 overflow: hidden;
+            }
+            .menu-principal__label {
+                display: none;
             }
         }
     }

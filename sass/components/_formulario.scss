@@ -18,11 +18,11 @@
         color: #353434;
     }
     &__botao {
-        border: 3px solid $cor-botao-submit;
-        background-color: #fff;
-        border-radius: 300px;
+        border: 3px solid rgb(25, 25, 26);
+        background-color: #ffffff;
+        border-radius: 15px;
         padding: 5px 25px;
-        color: $cor-botao-submit;
+        color: #070707;
         font-weight: bold;
         display: block;
         margin: 0 auto;
@@ -31,6 +31,9 @@
     label.error {
         color: red;
         padding-left: 5px;
+    }
+    &__paragrafo {
+        margin-top: 80px;
     }
     @media(min-width: $breakpoint-md){
         &__grupo {

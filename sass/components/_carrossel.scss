@@ -1,0 +1,39 @@
+
+.carrossel {
+    p { margin: -35px 0;
+    }
+    &__titulo {
+        margin-top: 50px;
+        margin-bottom: -40px;
+        text-align: center;
+    }
+    &__paragrafo {
+        margin-top: 50px;
+        margin-bottom: 70px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}
+
+@media(min-width: $breakpoint-lg) {
+    .carrossel {
+        display: flex;
+        &__titulo {
+            text-align: left;
+        }
+        &__paragrafo {
+            text-align: left;
+        }
+    }
+    p a img {
+        width: 600px;
+        height: 80%;
+    }
+    
+}
+
+section div {
+    margin: 0 0;
+}
+

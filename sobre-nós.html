@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Responsivo | Contato</title>
+    <title>Site Responsivo | Sobre nós</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/linhas/Mercerizado preto.png">
 </head>
@@ -17,8 +17,8 @@
                 <ul class="menu-principal__lista"> 
                     <li><a class="menu-principal__item" href="index.html">Home</a></li>
                     <li><a class="menu-principal__item" href="galeria.html">Galeria</a></li>
-                    <li><a class="menu-principal__item" href="sobre-nós.html">Sobre nós</a></li>
-                    <li><a class="menu-principal__item menu-principal__item--atual" href="#">Contato</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="#">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
                     <li><input class="menu-principal__label" type="search" name="procurar" id="procurar" placeholder="O que você está procurando?"></li>
                 </ul>
             </nav>
@@ -26,29 +26,50 @@
     </header>
     <main>
         <header class="pagina-cabecalho">
-            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+            <h1 class="pagina-cabecalho__titulo">Sobre nós</h1>
         </header>
         <section class="container">
-            <p class="formulario__paragrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab a neque, provident voluptate nesciunt 
-                labore corrupti eius natus autem aliquid, repellendus nobis placeat ad error minima cumque earum inventore.
-            </p>
-            <form action="#" class="formulario">
-                <div class="formulario__grupo formulario__grupo--coluna-left">
-                    <label class="formulario__label" for="nome">Nome</label><br>
-                    <input class="formulario__input" type="text" name="nome" id="nome">
+            <div class="sobre-nos">
+                <div class="sobre-nos__grupo sobre-nos__grupo--esquerda">
+                    <div class="sobre-nos__texto">
+                        <h2>SOBRE NÓS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing corrupti, eos recusandae minus obcaecati illo perferendis consectetur? Debitis, nemo?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, excepturi? Non consequatur consequuntur magni natus is, placeat sunt amet iste eius perspiciatis, beatae cupiditate magnam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro eveniet earum! Porro ducimus tempore aut ullam, aperiam tenetur molestiae atque, velit laboriosam qui vel maxime consectetur, molestias tempora vero?</p>
+                    </div>
                 </div>
-                <div class="formulario__grupo formulario__grupo--coluna-right">
-                    <label class="formulario__label" for="email">E-mail</label><br>
-                    <input class="formulario__input" type="email" name="email" id="email">
+                <div class="sobre-nos__grupo sobre-nos__grupo--direita">
+                    <div class="sobre-nos__fale-conosco">
+                        <h3 class="sobre-nos__fale-conosco__titulo">Não encontrou a solução <br>
+                            Para sua dúvida?
+                        </h3>
+                        <div>
+                            <span class="sprite-celular"></span>
+                            <h4 class="">ATENDIMENTO AO CLIENTE</h4>
+                            <p class="sobre-nos__fale-conosco__paragrafo">47 4856-4055</p>
+                        </div>
+                        <div>
+                            <span class="sprite-whatsapp" ></span>
+                            <p>Whatsapp: 11 97481-4082</p>
+                            <h4>CONFIRA OS HORÁRIOS DE ATENDIMENTO</h4>
+                            <p class="sobre-nos__fale-conosco__paragrafo">De 2ª a 6ª, das 9h ás 18h.</p>
+                        </div>
+                        <div>
+                            <span class="sprite-email"></span>
+                            <h4>E-MAIL PARA CONTATO</h4>
+                            <p class="sobre-nos__fale-conosco__paragrafo">
+                                <a href="mailto:welintontslv@hotmail.com">welintontslv@hotmail.com</a>
+                            </p>
+                            <p>OU PREENCHA NOSSO FORMULÁRIO PARA CONTATO</p>
+                        </div>
+                        <div class="sobre-nos__btn">
+                            <a href="contato.html">ENVIAR MENSAGEM</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="formulario__grupo">
-                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
-                    <textarea class="formulario__input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                </div>
-                <input  type="submit" class="formulario__botao" name="submit"  value="Enviar">
-            </form>
+            </div>
         </section>
+       
     </main>
     <footer class="footer">
         <div class="container f-primeira-linha">
@@ -120,9 +141,7 @@
             &copy; 2023 - Todos os direitos reservados - @welintont
         </div>
     </footer>
-    
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

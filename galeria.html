@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Responsivo | Contato</title>
+    <title>Site Responsivo | Galeria</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/linhas/Mercerizado preto.png">
 </head>
@@ -16,9 +16,9 @@
                 <button class="menu-principal__btn">Abrir/fechar menu</button>
                 <ul class="menu-principal__lista"> 
                     <li><a class="menu-principal__item" href="index.html">Home</a></li>
-                    <li><a class="menu-principal__item" href="galeria.html">Galeria</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="#">Galeria</a></li>
                     <li><a class="menu-principal__item" href="sobre-nós.html">Sobre nós</a></li>
-                    <li><a class="menu-principal__item menu-principal__item--atual" href="#">Contato</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
                     <li><input class="menu-principal__label" type="search" name="procurar" id="procurar" placeholder="O que você está procurando?"></li>
                 </ul>
             </nav>
@@ -26,29 +26,44 @@
     </header>
     <main>
         <header class="pagina-cabecalho">
-            <h1 class="pagina-cabecalho__titulo">Contato</h1>
+            <h1 class="pagina-cabecalho__titulo">Galeria</h1>
         </header>
         <section class="container">
-            <p class="formulario__paragrafo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab a neque, provident voluptate nesciunt 
-                labore corrupti eius natus autem aliquid, repellendus nobis placeat ad error minima cumque earum inventore.
+            <h2 class="carrossel__titulo">Lorem ipsum, dolor</h2>
+            <p class="carrossel__paragrafo">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum similique accusantium modi eos totam eveniet sequi 
+                magni velit facilis soluta odit eaque deleniti cum, deserunt odio dicta eum, dolores in.
             </p>
-            <form action="#" class="formulario">
-                <div class="formulario__grupo formulario__grupo--coluna-left">
-                    <label class="formulario__label" for="nome">Nome</label><br>
-                    <input class="formulario__input" type="text" name="nome" id="nome">
-                </div>
-                <div class="formulario__grupo formulario__grupo--coluna-right">
-                    <label class="formulario__label" for="email">E-mail</label><br>
-                    <input class="formulario__input" type="email" name="email" id="email">
-                </div>
-                <div class="formulario__grupo">
-                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
-                    <textarea class="formulario__input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                </div>
-                <input  type="submit" class="formulario__botao" name="submit"  value="Enviar">
-            </form>
         </section>
+        <section >
+            <div class="carrossel">
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/cidade-noite.jpg"><img class="carrossel__img" src="./img/natureza/cidade-noite.jpg" alt="Uma cidade á noite"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/neve-com-sol.jpg"><img class="carrossel__img" src="./img/natureza/neve-com-sol.jpg" alt="Montanha de neve com uma pessoa e sol ao fundo"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/montanha-nevoa.jpg"><img class="carrossel__img" src="./img/natureza/montanha-nevoa.jpg" alt="Pessoas perto de um precipício a noite"></a></p>
+            </div>
+            <div class="carrossel">
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/montanha-verde.jpg"><img class="carrossel__img" src="./img/natureza/montanha-verde.jpg" alt="Montanhas perto do mar"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/anoitecer-nas-montanhas.jpg"><img class="carrossel__img" src="./img/natureza/anoitecer-nas-montanhas.jpg" alt="Montanhas com neve ao anoitecer"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/new-york.jpg"><img class="carrossel__img" src="./img/natureza/new-york.jpg" alt="Times Square lotada"></a></p>
+            </div>
+            <div class="carrossel">
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/fazenda.jpg"><img class="carrossel__img" src="./img/natureza/fazenda.jpg" alt="Casa no meio do mato com montanas ao fundo"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/montanha-inverno.jpg"><img class="carrossel__img" src="./img/natureza/montanha-inverno.jpg" alt="Estrada com um homem e montanhas ao fundo"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/ovelhas.jpg"><img class="carrossel__img" src="./img/natureza/ovelhas.jpg" alt="Rebanho de ovelhas"></a></p>
+            </div>
+            <div class="carrossel">
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/baloes.jpg"><img class="carrossel__img" src="./img/natureza/baloes.jpg" alt="Vários balões voando pela cidade"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/casa-rosa.jpg"><img class="carrossel__img" src="./img/natureza/casa-rosa.jpg" alt="Castelo na cor rosa"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/cavalo.jpg"><img class="carrossel__img" src="./img/natureza/cavalo.jpg" alt="Cavalo sozinho pastando e ao fundo montanhas"></a></p>
+            </div>
+            <div class="carrossel">
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/igreja-neve.jpg"><img class="carrossel__img" src="./img/natureza/igreja-neve.jpg" alt="Local cheio de neve com uma pequena igreja ao fundo"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/canyons.jpg"><img class="carrossel__img" src="./img/natureza/canyons.jpg" alt="Canyons cobertos por neve"></a></p>
+                <p><a class="carrossel__item" data-fancybox="gallery" href="./img/natureza/floresta-verde.jpg"><img class="carrossel__img" src="./img/natureza/floresta-verde.jpg " alt="Pessoa caminhando sozinha por uma floresta"></a></p>
+            </div>
+        </section>
+
+        
     </main>
     <footer class="footer">
         <div class="container f-primeira-linha">
@@ -120,9 +135,11 @@
             &copy; 2023 - Todos os direitos reservados - @welintont
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <script src="./js/jquery-3.6.3.min.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
