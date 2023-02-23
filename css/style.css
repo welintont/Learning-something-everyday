@@ -634,8 +634,13 @@ footer {
 .menu-principal__label {
   padding: 5px 10px;
   width: 225px;
-  border-radius: 10px;
-  border-color: aliceblue; }
+  border-radius: 0;
+  border-color: aliceblue;
+  border-color: #0f1417;
+  background-color: #f8f8f8;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
 
 @media (max-width: 767px) {
   .menu-principal--fechado .menu-principal__btn {

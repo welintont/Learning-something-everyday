@@ -3,6 +3,7 @@
  //   $('.menu-principal').toggleClass('menu-principal--fechado');
 //});
 
+// Isso aqui está em JQuery 
 $(document).ready(function(){
     //Botão abrir e fechar menu com JavaScript puro
     let botao =document.querySelector('.menu-principal__btn');
@@ -40,7 +41,28 @@ $(document).ready(function(){
             }
         },
     })
+   
 })
+// Isso aqui está em JQuery 
+
+
+// TESTES JAVASCRIPT
+function gritar(){
+    alert("aahhhhhhhhhhhsdfsdfd");
+};
+
+function perguntar(){
+    var nome;
+    nome = prompt("Qual é o seu nome?");
+    alert("Olá " + nome);
+};
+
+function muda_texto(){
+    var h1 = document.getElementsByTagName("li");
+    li[0].innerText = "Testando JavaScript";
+};
+
+
 
 
 
